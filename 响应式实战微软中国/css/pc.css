@@ -1,0 +1,204 @@
+@charset "utf-8";
+body{
+	font-family: punctuation, PingFangSC-Regular, "Microsoft YaHei", "微软雅黑";
+	/*border: 1px solid black;*/
+	
+}
+/*公用样式*/
+.pc_header{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*头部部分*/
+.wr_tubiao{
+	float: none;
+}
+.help{
+	line-height: 32px;
+	font-size: 14px;
+	color: #000000;
+	float: left;
+	margin-left: 62px;
+}
+.search{
+	width: 478px;
+	height: 28px;
+	position: relative;
+	border: 1px solid #CCCCCC;
+	float: left;
+	margin-left: 74px;
+}
+.search input{
+	width: 450px;
+	height: 28px;
+	float: left;
+}
+.search a{
+	height: 28px;
+	line-height: 28px;
+	
+	font-size: 20px;
+	color: #000000;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.gw{
+	margin-left: 24px;
+}
+.dl{
+	color: #000000;
+	float: right;
+}
+
+/*商城部分*/
+.fenlei_shop{
+	display: none;
+}
+.text_shop{
+	font-size: 14px;
+}
+
+/*轮播部分*/
+.txt_ipadshow{
+	width: 50%;
+	float: right;
+	line-height: 2;
+}
+.img_ipadshow{
+	width: 50%;
+	float: left;
+}
+
+/*遮罩图部分橘色*/
+.mask_m{
+	height: 250px;
+}
+.l_mask{
+	width: 450px;
+	height: 250px;
+	background-color: orangered;
+	position: relative;
+	float: left;
+}
+.l_mask:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -93px;
+	border-style:solid;
+	border-width: 250px 0 0 94px;
+	border-color: transparent transparent orangered orangered;
+}
+.mask_m{
+	background: url(../imgs/lumia-banner.jpg) no-repeat 200px -40px ;
+}
+.mask_text{
+	line-height: 80px;
+}
+
+/*遮罩图部分黄色*/
+.mask_m_yellow{
+	height: 250px;
+}
+.pc_mask_y{
+	width: 450px;
+	height: 250px;
+	background-color: #e9b407;
+	position: relative;
+	float: right;
+}
+.l_mask_yellow:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -93px;
+	border-style:solid;
+	border-width: 254px 0 0 94px;
+	border-color: #e9b407 #e9b407 transparent transparent;
+}
+.ipad_mask_img_y{
+	background: url(../imgs/office-banner.jpg) no-repeat -800px -40px ;
+}
+/*购物*/
+.computer_m{
+	width: 100%;
+}
+/*.pc_shopping{
+	width: 24%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.pc_shoppingt{
+	width: 24%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.pc_shoppingtree{
+	width: 24%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.pc_shoppingf{
+	width: 24%;
+	margin-left: 0px;
+	margin-right: 0px;
+}*/
+.pc_shopping,
+.pc_shoppingt,
+.pc_shoppingtree,
+.pc_shoppingf{
+	width: 24%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.pc_shopping{
+	margin-left: 1%;
+	margin-right: .5%;
+	
+}
+.pc_shoppingt{
+	margin-right: .5%;
+}
+.pc_shoppingf{
+	margin-right: 1%;
+	margin-left: .5%;
+}
+
+/*底部信息*/
+.about_we .span{
+	display: none;
+}
+.about_we .a{
+	border-bottom: none;
+}
+.about_we .d{
+	width: 25%;
+	float: left;
+}
+
+.china{
+	float: left;
+}
+.info_over{
+	float: right;
+}
+.info_over .c{
+	float: left;
+	margin: 0 22px;
+}
+/*pc下显示，在移动端隐藏*/
+.pcshow{
+	display: inline-block;
+}
+/*pc下隐藏，在移动端显示*/
+.phidd{
+	display: block;
+}
+.pchid{
+	display: none;
+}
+.pp{
+	display: none;
+}

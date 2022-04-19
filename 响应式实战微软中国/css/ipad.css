@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/*轮播部分*/
+.txt_ipadshow{
+	width: 48%;
+	float: right;
+	font-size: 16px;
+	line-height: 2;
+}
+.img_ipadshow{
+	width: 52%;
+	float: left;
+}
+.list_six li a{
+	width: 15.5%;
+	height: 39px;
+	line-height: 39px;
+	background-color: #0f64ce;
+	float: left;
+	margin-left: 1%;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/*遮罩图部分橘色*/
+.ipad_mask_img{
+	background: url(../imgs/lumia-banner.jpg) no-repeat -405px -100px ;
+}
+
+.ipad_mask{
+	width: 420px;
+}
+
+/*遮罩图部分黄色*/
+.ipad_mask_img_y{
+	background: url(../imgs/office-banner.jpg) no-repeat -800px -140px ;
+}
+.ipad_mask_y{
+	width: 420px;
+}
+
+
+/*商城*/
+.fenlei_shop{
+	border: none;
+}
+
+
+/*购物*/
+/*.w{
+	height: 640px;
+}*/
+.shopping,
+.shopping_t,
+.shopping_tree,
+.shopping_f{
+	padding: 0 0px;
+	margin-top: 0px;
+}
+
+/*.{
+	width: 47%;
+	float: left;
+	margin-top: 40px;
+	margin-left: 20px;
+	margin-right: 8px;
+}*/
+/*.ipad_shoppingt{
+	width: 47%;
+	float: left;
+	margin-top: 40px;
+}*/
+.ipad_shopping,
+.ipad_shoppingtree{
+	width: 47%;
+	float: left;
+	margin-top: 24px;
+	margin-left: 20px;
+	margin-right: 8px;
+	
+}
+.ipad_shoppingt,
+.ipad_shoppingf{
+	width: 47%;
+	float: left;
+	margin-top: 24px;
+}
+.pchid{
+	display: none;
+}
+/*底部信息*/

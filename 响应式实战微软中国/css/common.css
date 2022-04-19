@@ -1,0 +1,327 @@
+@charset "utf-8";
+body{
+	font-family: punctuation, PingFangSC-Regular, "Microsoft YaHei", "微软雅黑";
+	/*border: 1px solid black;*/
+	
+}
+/*广告*/
+.wr_gg{
+	height: 33px;
+	text-align: center;
+	line-height: 33px;
+	background-color: #002050;
+	color: #FFFDEF;
+	font-size: 12px;
+}
+/*logo 搜索等*/
+.header{
+	padding:0px 12px;
+	height: 49px;
+	line-height: 49px;
+	background-color:#f5f5f5 ;
+}
+.wr_lg{
+	width: 95px;
+	height: 20px;
+	float: left;
+}
+
+.wr_lg img{
+	width: 100%;
+	height: 100%;
+}
+
+.wr_tubiao{
+	padding: 10px 0px;
+	line-height: 25px;
+	float: right;
+}
+.wr_tubiao .ss,
+.wr_tubiao .gw,
+.wr_tubiao .yh{
+	width: 24px;
+	height: 24px;
+	color: #000000;
+	font-size: 20px;
+}
+.wr_tubiao .ss,
+.wr_tubiao .gw{
+	margin-right: 36px;
+}
+
+/*微软商城*/
+.nav{
+	border-bottom: 1px solid #000000;
+}
+.nav .wr_shop{
+	padding: 0 0 0 12px;
+	height: 50px;
+	line-height: 50px;
+	position: relative;
+}
+.text_shop{
+	float: left;
+	font-size: 18px;
+}
+.fenlei_shop{
+	float: right;
+	font-size: 20px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	/*border-top: 1px solid #C1B2B2;
+	border-left: 1px solid #C1B2B2;*/
+	background-color: white;
+}
+.wr_list{
+	width: 100%;
+	position: absolute;
+	top: 51px;
+	left: 0;
+	background-color: white;
+	z-index: 999;
+}
+.wr_list ul{
+	padding:0px 20px;
+}
+.l_meum li{
+	width: 100%;
+}
+.l_meum li a{
+	color: black;
+}
+.l_meum:hover{
+	background-color: lightblue;
+}
+.wr_list ul a:hover{
+	text-decoration: underline;
+}
+/*轮播*/
+.banner{
+	z-index: -1;
+}
+.b_cont{
+	padding: 20px;
+	background-color: #dfdfdf;
+}
+.h_text{
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom:0.375rem;;
+}
+.h_t_text{
+	font-size: 20px;
+	margin-bottom: 0.375rem;
+}
+.p_text{
+	font-size: 14px;
+	line-height: 2;
+}
+/*.b_img{
+	width: 100%;
+}*/
+.b_img img{
+	width: 100%;
+	vertical-align: middle;
+} 
+.auto{
+	max-width: 100%;
+}
+
+/*列表6个*/
+.list_six{
+	padding: 10px 0px;
+}
+.list_six .as_active{
+	line-height: 20px;
+	background-color: #17AAD5;
+}
+.list_six li a{
+	width: 32%;
+	height: 39px;
+	line-height: 39px;
+	background-color: #0f64ce;
+	float: left;
+	margin-bottom: 1%;
+	margin-left: 1%;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/*遮罩图部分橘色*/
+.mask_m{
+	background: url(../imgs/lumia-banner.jpg) no-repeat -660px -80px ;
+}
+.l_mask{
+	width: 208px;
+	height: 160px;
+	background-color: orangered;
+	position: relative;
+	float: left;
+}
+.l_mask:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -94px;
+	border-style:solid;
+	border-width: 160px 0 0 94px;
+	border-color: transparent transparent orangered orangered;
+}
+.mask_text{
+	color: #FFFDEF;
+	text-align: center;
+}
+.mask_text .mask_h_t{
+	line-height: 80px;
+}
+
+/*遮罩图部分黄色*/
+.mask_m_yellow{
+	margin-top: 20px;
+	background: url(../imgs/office-banner.jpg) no-repeat -760px -80px ;
+}
+.l_mask_yellow{
+	width: 208px;
+	height: 160px;
+	background-color: #e9b407;
+	position: relative;
+	float: right;
+}
+.l_mask_yellow:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -94px;
+	border-style:solid;
+	border-width: 160px 0 0 94px;
+	border-color: #e9b407 #e9b407 transparent transparent;
+}
+.mask_text{
+	color: #FFFDEF;
+	text-align: center;
+}
+.mask_text .mask_h_t{
+	line-height: 80px;
+}
+
+/*购物*/
+.shopping{
+	padding: 0 20px;
+	margin-top: 38px;
+}
+.shopping_t,
+.shopping_tree,
+.shopping_f{
+	padding: 0 20px;
+	margin-top: 24px;
+}
+.shop_list{
+	background-color: #fbefec;
+	text-align: center;
+}
+.computer_m{
+	width: 300px;
+	height: 180px;
+	margin: auto;
+}
+.computer_m img{
+	max-width: 100%;
+}
+.shop_btn{
+	padding: 10px 0px;
+}
+.shop_btn .money{
+	color: orange;
+	font-size: 20px;
+}
+.shop_btn .shop_a{
+	display: inline-block;
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	color: white;
+	background-color: orange;
+}
+
+/*购物列表2*/
+.shop_listb{
+	background-color: #dbe8f8;
+	text-align: center;
+}
+
+/*底部信息*/
+.bot_con{
+	padding: 15px 30px;
+	margin-top: 20px;
+	background-color: #414141;
+}
+.about_we ul{
+	padding: 15px 0px;
+}
+.about_we .a{
+	line-height: 44px;
+	border-bottom: 1px solid #737373;
+	transition: .35s;
+}
+.about_we a{
+	font-size: 24px;
+	color: #FFFFFF;
+}
+.about_we span{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	color: #808080;
+	float: right;
+}
+.wr_info{
+	margin-top: 45px;
+}
+.china a{
+	padding: 0px 30px;
+	background-color: #FFFFFF;
+	height: 24px;
+	line-height: 24px;
+	float: left;
+	color: black;
+}
+.info_over{
+	float: left;
+}
+.info_over_ul{
+	
+}
+.info_over_ul .c{
+	margin: 14px 0;
+	color: #808080;
+}
+.c a{
+	color: #808080;
+}
+.pc_ul .b{
+	color: white;
+	font-size: 16px;
+}
+.over span{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background: url(../imgs/qiu.jpg) no-repeat 0 0;
+}
+/*在pc显示的，在移动端隐藏*/
+.pcshow{
+	display: none;
+}
+.phidd{
+	display: none;
+}
+.pchid{
+	display: none;
+}
+.hidd{
+	display: none;
+}
